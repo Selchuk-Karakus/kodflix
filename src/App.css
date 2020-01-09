@@ -7,17 +7,22 @@ img {
   height: 100%;
 }
 
-.flex-container {
+.banner-row {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.flex-container > div {
-  flex-grow: 1;
-  width: 33%;
+.banner-row img {
+  width: 100%;
+  height: 100%;
 }
 
-.flex-container > div > h1 {
-  margin: 30px;
+.banner-column {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-row {
+    display: block;
+  }
 }

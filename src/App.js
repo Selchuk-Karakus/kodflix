@@ -14,19 +14,19 @@ function App() {
             <div className='banner-column'>
               <img src={fargoBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>Fargo</h1></div>
+                <div class="title"><h2>Fargo</h2></div>
               </div>
             </div>
             <div className='banner-column'>
               <img src={theKnickBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>The Knick</h1></div>
+                <div class="title"><h2>The Knick</h2></div>
               </div>
             </div>
             <div className='banner-column'>
               <img src={vinlyBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>Vinly</h1></div>
+                <div class="title"><h2>Vinly</h2></div>
               </div>
             </div>
         </div>
@@ -34,19 +34,19 @@ function App() {
             <div className='banner-column'>
               <img src={theSopranosBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>The Sopranos</h1></div>
+                <div class="title"><h2>The Sopranos</h2></div>
               </div>
             </div>
             <div className='banner-column'>
               <img src={bizimkilerBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>Bizimkiler</h1></div>
+                <div class="title"><h2>Bizimkiler</h2></div>
               </div>
             </div>
             <div className='banner-column'>
               <img src={howIMetYourMotherBanner} alt='Movie Banner' />
               <div class="overlay">
-                <div class="title"><h1>How I Met Your Mother</h1></div>
+                <div class="title"><h2>How I Met Your Mother</h2></div>
               </div>
             </div>
         </div>

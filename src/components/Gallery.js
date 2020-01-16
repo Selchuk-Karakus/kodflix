@@ -11,14 +11,14 @@ export default function Gallery() {
     return (
       <div>
         <div className='banner-row'>
-          <TvShowList name='Fargo' banner={fargoBanner}/>
-          <TvShowList name='The Knick' banner={theKnickBanner}/>
-          <TvShowList name='Vinly' banner={vinlyBanner}/>
+          <TvShowList id='fargo' name='Fargo' banner={fargoBanner}/>
+          <TvShowList id='the-knick' name='The Knick' banner={theKnickBanner}/>
+          <TvShowList id='vinly' name='Vinly' banner={vinlyBanner}/>
         </div>
         <div className='banner-row'>
-          <TvShowList name='The Sopranos' banner={theSopranosBanner}/>
-          <TvShowList name='Bizimkiler' banner={bizimkilerBanner}/>
-          <TvShowList name='How I Met Your Mother' banner={howIMetYourMotherBanner}/>   
+          <TvShowList id='the-sopranos' name='The Sopranos' banner={theSopranosBanner}/>
+          <TvShowList id='bizimkiler' name='Bizimkiler' banner={bizimkilerBanner}/>
+          <TvShowList id='how-i-met-your-mother' name='How I Met Your Mother' banner={howIMetYourMotherBanner}/>   
         </div>
       </div>
     );

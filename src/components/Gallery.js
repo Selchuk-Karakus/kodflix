@@ -10,12 +10,10 @@ import howIMetYourMotherBanner from './gallery/images/howIMetYourMother.jpg';
 export default function Gallery() {
     return (
       <div>
-        <div className='banner-row'>
+        <div className='container'>
           <TvShowList id='fargo' name='Fargo' banner={fargoBanner}/>
           <TvShowList id='the-knick' name='The Knick' banner={theKnickBanner}/>
           <TvShowList id='vinly' name='Vinly' banner={vinlyBanner}/>
-        </div>
-        <div className='banner-row'>
           <TvShowList id='the-sopranos' name='The Sopranos' banner={theSopranosBanner}/>
           <TvShowList id='bizimkiler' name='Bizimkiler' banner={bizimkilerBanner}/>
           <TvShowList id='how-i-met-your-mother' name='How I Met Your Mother' banner={howIMetYourMotherBanner}/>   

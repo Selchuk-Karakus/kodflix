@@ -11,6 +11,7 @@ export default class Details extends React.Component {
     } 
 
     componentDidMount() {
+        let details = this.props.match.params.details;
         setTimeout(() => {
             this.setState({message: 'Coming Soon!!!'})
         }, 3000);

@@ -1,26 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import getGallery from '../gallery/gallery-get';
 
 
 export default class Details extends React.Component {
     constructor() {
         super();
         this.state= {
-            message: 'Hello, this will be the details page for each Movie & TV show' 
+            details: {}
         };
     } 
 
     componentDidMount() {
-        let details = this.props.match.params.details;
-        setTimeout(() => {
-            this.setState({message: 'Coming Soon!!!'})
-        }, 3000);
+        let detailsId = this.props.match.params.detailsId;
+        let details =getGallery()
+            .find((details) => details.id === detailsId);
+        this.setState({ details });
     }
 
     render() {
         return (
         <div>
-            <h1>{this.state.message}</h1>
+            <h1>{this.state.details.name}</h1>
             <Link to='/'>Home</Link>
         </div>
         );

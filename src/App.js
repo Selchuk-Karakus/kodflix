@@ -4,16 +4,20 @@ import './App.css';
 import Details from './components/details/Details';
 import {
   BrowserRouter as Router,
-  Route
+  Route, Switch
 } from "react-router-dom";
+import NotFound from './components/NotFound/NotFoundPage'
 
 function App() {
   return (
-    <Router>
+    <Router>   
       <div className="App">
-        <Route exact path='/' component={Gallery} />
-        <Route path='/:detailsId' component={Details} />
-      </div>
+            <Switch>
+              <Route path='/notFound' component={NotFound} />
+              <Route exact path='/' component={Gallery} />
+              <Route path='/:detailsId' component={Details} />
+            </Switch>
+      </div>     
     </ Router>
   );
 }

@@ -1,10 +1,12 @@
 import React from 'react';
-import TvShowList from './TvShowList';
-import GetGallery from './gallery/gallery-get';
+import TvShowList from '../TvShowList';
+import GetGallery from './gallery-get';
+import './Gallery.css';
 
 export default function Gallery() {
     return (
       <div>
+        <h1 className='main-header'>Kodflix</h1>
         <div className='container'>
           {
             GetGallery().map(movie => (

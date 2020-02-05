@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(66, 148, 185)
+}
+
+h1 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 3px 1px 3px rgb(63, 35, 35);
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.details, p {
+    padding: 10px
+}
+
+.details-container{
+    display: block;
+    color: white
+}
+
+.Details > img {
+    width: 500px;
+    /* min-height: 35vw; */
+    max-height: 60vw;
+    border: 5x solid black;
+    border-radius: 2px;
+    border-style: solid;
+    position: relative;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.Details > a:hover {
+    color: rgb(255, 255, 255);
+    cursor: context-menu;
+}

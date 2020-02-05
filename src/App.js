@@ -13,8 +13,8 @@ function App() {
     <Router>   
       <div className="App">
             <Switch>
-              <Route path='/notFound' component={NotFound} />
               <Route exact path='/' component={Gallery} />
+              <Route path='/notFound' component={NotFound} />
               <Route path='/:detailsId' component={Details} />
             </Switch>
       </div>     

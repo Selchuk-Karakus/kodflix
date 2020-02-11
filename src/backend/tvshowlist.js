@@ -30,3 +30,5 @@ let tvShowList = [
             detail: 'How I Met Your Mother (often abbreviated as HIMYM) is an American sitcom created by Craig Thomas and Carter Bays for CBS. The series, which ran from 2005 to 2014, follows the main character, Ted Mosby, and his group of friends in New York City"s Manhattan.', 
         }
 ];
+
+module.exports = tvShowList;
